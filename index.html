@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Youxue Chen is an undergraduate researcher in theoretical and applied mechanics at the University of Science and Technology of China.">
+  <title>Youxue Chen | Mechanics &amp; Metamaterials</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#top" aria-label="Back to home">
+      <span class="wordmark-mark" aria-hidden="true">Y</span>
+      <span>YOUXUE CHEN / MECHANICS</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
+      <span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Main navigation" data-nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#honors">Honors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content reveal is-visible">
+        <p class="eyebrow">MECHANICS · SIMULATION · EXPERIMENT</p>
+        <h1 id="hero-title">Youxue<br>Chen</h1>
+        <p class="hero-intro">Exploring how computation, experiments, and intelligent design can make complex structures lighter, tougher, and more reliable.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">View research <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="mailto:chenyouxue@mail.ustc.edu.cn">Get in touch <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-meta" aria-label="Profile summary">
+        <span>UNDERGRADUATE RESEARCHER</span>
+        <span>USTC · HEFEI, CHINA</span>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Continue to profile">
+        <span>SCROLL</span><i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="section-index">01 / PROFILE</div>
+      <div class="about-layout">
+        <h2 id="about-title" class="section-title reveal">Turning complex mechanics into testable, useful designs.</h2>
+        <div class="about-copy reveal">
+          <p>I am an undergraduate in Theoretical and Applied Mechanics at the University of Science and Technology of China, expected to graduate in 2028. My work connects nonlinear finite element analysis with physical experiments.</p>
+          <p>I am particularly interested in mechanics simulation, fatigue and fracture, architected materials, and algorithms that turn reliable models into better engineering structures.</p>
+        </div>
+      </div>
+      <dl class="facts reveal" aria-label="Academic profile">
+        <div><dt>MAJOR RANK</dt><dd>3 / 53</dd></div>
+      </dl>
+    </section>
+
+    <section class="research section dark-band" id="research" aria-labelledby="research-title">
+      <div class="section-index">02 / RESEARCH INTEREST</div>
+      <div class="research-heading reveal">
+        <h2 id="research-title" class="section-title">Designing lattice metamaterials that outlast fatigue.</h2>
+        <p>My undergraduate innovation project studies how material contrast and lattice geometry govern fatigue damage. Move the pointer to perturb the structure.</p>
+      </div>
+      <div class="lattice-stage reveal" data-lattice-stage>
+        <canvas id="lattice-canvas" aria-label="An interactive triangular lattice responding to pointer movement"></canvas>
+        <div class="lattice-caption">
+          <span>INTERACTIVE LATTICE / 01</span>
+          <strong>Bi-material triangular lattice</strong>
+        </div>
+      </div>
+      <div class="research-notes reveal">
+        <article>
+          <span>01</span>
+          <h3>Bi-material Architecture</h3>
+          <p>Designing triangular lattices with controlled soft-hard modulus contrast, strut dimensions, phase arrangement, and relative density.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Experiment &amp; Mechanics</h3>
+          <p>Combining multi-material 3D printing, cyclic fatigue tests, and simulation to measure S-N response and trace crack initiation, deflection, branching, and coalescence.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>AI-driven Optimization</h3>
+          <p>Building a fatigue-fracture database from experimental and simulation data to predict lifetime and optimize lightweight, fracture-resistant lattice designs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="experience" aria-labelledby="experience-title">
+      <div class="section-index">03 / TIRE SIMULATION</div>
+      <div class="projects-heading">
+        <h2 id="experience-title" class="section-title reveal">From road contact to full-field response.</h2>
+        <p class="projects-intro reveal">A nonlinear finite element workflow for resolving rolling contact, deformation, wear, and structural performance across tire operating conditions.</p>
+      </div>
+
+      <div class="tire-stage reveal" data-tire-stage>
+        <canvas id="tire-canvas" aria-label="Interactive three-dimensional tire responding to pointer movement"></canvas>
+        <div class="tire-caption">
+          <span>INTERACTIVE TIRE / 02</span>
+          <strong>Contact, stress, and rolling response</strong>
+        </div>
+      </div>
+
+      <div class="project-list research-projects tire-project-list">
+        <article class="project project-with-image reveal">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <div class="project-tags"><span>2024–2025</span><span>FEA</span><span>CONTACT MECHANICS</span></div>
+            <h3>“Chasing Wind and Sun” Tire Simulation Engine</h3>
+            <p>Working with Prof. Hengan Wu's group, I studied nonlinear tire and contact mechanics and contributed to adaptive meshing and parallel solution methods for full-condition finite element simulation, wear analysis, and structural optimization.</p>
+            <p class="project-result">National Third Prize · 19th Challenge Cup</p>
+          </div>
+          <figure class="project-photo">
+            <img src="assets/tire-simulation.png" alt="Finite element pressure and deformation contours from tire rolling and wear simulations">
+            <figcaption>Contact pressure and deformation fields from tire simulations</figcaption>
+          </figure>
+        </article>
+
+        <article class="project project-with-image reveal">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <div class="project-tags"><span>2026–PRESENT</span><span>3D PRINTING</span><span>FATIGUE</span><span>AI</span></div>
+            <h3>Fatigue Fracture of Lightweight Bi-material Lattices</h3>
+            <p>In Prof. Yong Ni's group, I combine multi-material 3D printing, cyclic fatigue tests, finite element analysis, and machine learning to investigate crack propagation and seek lattice designs that are lightweight, tough, and fatigue-resistant.</p>
+            <p class="project-result">National Undergraduate Innovation Program</p>
+          </div>
+          <figure class="project-photo">
+            <img src="assets/lattice-fracture.png" alt="Finite element visualization of crack propagation through a triangular lattice">
+            <figcaption>Simulated crack propagation in a triangular lattice</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey section" id="honors" aria-labelledby="honors-title">
+      <div class="section-index">04 / HONORS &amp; ACTIVITIES</div>
+      <div class="journey-layout honors-layout">
+        <div class="reveal">
+          <h2 id="honors-title" class="section-title">Learning deeply, contributing widely.</h2>
+          <p class="section-lead">Two consecutive National Scholarships, awards across mechanics, mathematics, and innovation competitions, and hands-on student leadership have shaped how I approach both research and teamwork.</p>
+        </div>
+        <ol class="timeline reveal">
+          <li>
+            <time datetime="2026">2026</time>
+            <div><h3>National Scholarship · 2025–2026</h3><p>Received the National Scholarship for a second consecutive year and won the Special Prize in the Anhui Provincial Mechanics Competition.</p></div>
+          </li>
+          <li>
+            <time datetime="2025">2025</time>
+            <div><h3>Scholarships &amp; Competition Awards</h3><p>National Scholarship and Outstanding Student Scholarship, Gold Award; National Third Prize in the 19th Challenge Cup, Third Prize in the Anhui division of the Chinese Mathematics Competition, and an Innovation Award at the National Mechanics + X Innovation Practice Symposium.</p></div>
+          </li>
+          <li>
+            <time>LEADERSHIP</time>
+            <div><h3>Engineering Student Leadership</h3><p>President of the School of Engineering Student Union (2026), Vice Minister of the University Student Union Rights Department (2026), and former Minister of the Engineering School Publicity Department (2025). Organized freshman welcome events, an energy-saving innovation competition awards ceremony, and student community activities while coordinating publicity, photography, and student feedback.</p></div>
+          </li>
+        </ol>
+      </div>
+      <div class="experience-gallery reveal">
+        <figure>
+          <img src="assets/cambridge-group.jpg" alt="Youxue Chen with fellow students and researchers during a summer academic visit in Cambridge">
+          <figcaption><strong>Cambridge summer visit</strong><span>Academic exchange in mechanics and engineering · 2026</span></figcaption>
+        </figure>
+        <figure>
+          <img src="assets/x-challenge.jpg" alt="Students and mentors at the X-Challenge robotics program">
+          <figcaption><strong>X-Challenge</strong><span>Explored how social intelligence can respond to real human needs. Developed an AI-assisted eldercare concept for safer, more independent daily living.</span></figcaption>
+        </figure>
+        <figure class="robogame-photo">
+          <img src="assets/robogame-robot.png" alt="RoboGame mobile robot completing an autonomous course">
+          <figcaption><strong>RoboGame field test</strong><span>Autonomous navigation and hardware integration</span></figcaption>
+        </figure>
+        <figure class="robogame-photo">
+          <img src="assets/robogame-team.jpg" alt="RoboGame team members after the competition">
+          <figcaption><strong>RoboGame team</strong><span>Collaborative development and competition delivery</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="skills section" aria-labelledby="skills-title">
+      <div class="section-index">05 / TOOLKIT</div>
+      <div class="skills-layout">
+        <h2 id="skills-title" class="section-title reveal">Built for work across models and experiments.</h2>
+        <div class="skill-groups reveal">
+          <div><span>COMPUTING</span><p>Python · C · MATLAB · Mathematica</p></div>
+          <div><span>SIMULATION</span><p>Abaqus · Nonlinear FEA · Contact mechanics</p></div>
+          <div><span>EXPERIMENT</span><p>Multi-material 3D printing · Fatigue testing</p></div>
+          <div><span>LANGUAGE</span><p>CET-6 645 · CET-4 650</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="section-index">06 / CONTACT</div>
+      <div class="contact-layout">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">LET'S WORK ON A HARD PROBLEM</p>
+          <h2 id="contact-title">Start a<br>conversation.</h2>
+          <p>I welcome conversations about computational mechanics, architected materials, fatigue and fracture, or research opportunities that bridge simulation and experiment.</p>
+          <a class="direct-email" href="mailto:chenyouxue@mail.ustc.edu.cn">chenyouxue@mail.ustc.edu.cn <span aria-hidden="true">↗</span></a>
+        </div>
+        <form class="contact-form reveal" data-contact-form>
+          <label><span>YOUR NAME</span><input type="text" name="name" autocomplete="name" required placeholder="How should I address you?"></label>
+          <label><span>EMAIL</span><input type="email" name="email" autocomplete="email" required placeholder="name@example.com"></label>
+          <label><span>MESSAGE</span><textarea name="message" rows="3" required placeholder="Tell me a little about your idea"></textarea></label>
+          <button class="button button-dark" type="submit">Send email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" aria-live="polite" data-form-note></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-mark" href="#top"><span class="wordmark-mark" aria-hidden="true">Y</span><span>YOUXUE CHEN</span></a>
+    <p>Mechanics, made tangible.</p>
+    <p>© <span data-year></span> YOUXUE CHEN</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
